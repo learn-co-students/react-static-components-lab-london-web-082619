@@ -9,7 +9,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<CatComponent />
-				<EinsteinQuoteComponent />
+				<EinsteinQuoteComponent articleText={"Dear Reader: Bjarne Stroustrup has the perfect lecture oration."}/>
 				<MouseComponent />
 			</div>
 		);

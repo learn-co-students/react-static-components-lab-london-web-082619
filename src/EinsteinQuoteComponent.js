@@ -8,6 +8,7 @@ export class EinsteinQuoteComponent extends Component {
 					<p>
 						&quot;Life is like riding a bicycle. To keep your balance you must
 						keep moving&quot;
+						{this.props.articleText}
 					</p>
 				</i>
 				<br />
